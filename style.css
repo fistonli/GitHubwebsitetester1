@@ -1,0 +1,49 @@
+.contanter{
+    margin-top: 0%;
+    padding: 0%;
+    border: 0%;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    background: black;
+    flex-direction: row;
+}
+.stuff{
+    width: 20%;
+    background-color: purple;
+    height: fit-content;
+    position: relative;
+    left: 80%;
+}
+.stuff h1{
+    text-align: center;
+    color: white;
+    font-size:large
+}
+.stuff h2{
+    color: blue;
+    font-size: xx-large;
+}
+.rightstuffconta{
+    width: 80%;
+    height: fit-content;
+    position: relative;
+    border: 1px solid blue;
+    right: 20%;
+}
+.rightstuffconta h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    color: black;
+}
+.textcont h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    background-position: 0%;
+    text-align: center;
+}
+.ui{
+    position: relative;
+    left: 40%;
+}

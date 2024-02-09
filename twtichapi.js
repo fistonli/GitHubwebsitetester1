@@ -44,6 +44,9 @@ function guess(){
   if(cinput.value == starmername){
     console.log('correct');
     cinput.value = '';
+  }else if(cinput.value == ""){
+    alert("Inncorrect")
+    cinput.value = "";
   }else{
     console.log('incorrect');
     cinput.value = '';

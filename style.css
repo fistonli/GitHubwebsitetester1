@@ -47,3 +47,8 @@
     position: relative;
     left: 40%;
 }
+.profileimg{
+    position: relative;
+    width: 256px;
+    height: 256px;
+}

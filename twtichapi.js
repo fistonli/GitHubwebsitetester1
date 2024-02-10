@@ -44,7 +44,7 @@ function guess(){
   if(cinput.value.toLowerCase() == starmername.toLowerCase()){
     console.log('correct');
     cinput.value = '';
-  }else if(cinput = ""){
+  }else if(cinput == ""){
     alert("Please Insert at least 1 charater")
   }else
   {

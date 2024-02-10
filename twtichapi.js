@@ -41,13 +41,13 @@ function get(){
   getChannelInfo(array[Math.floor(Math.random() * array.length)])
 }
 function guess(){
-  if(cinput.value == starmername){
+  if(cinput.value.toLowerCase() == starmername.toLowerCase()){
     console.log('correct');
     cinput.value = '';
-  }else if(cinput.value == ""){
-    alert("Inncorrect")
-    cinput.value = "";
-  }else{
+  }else if(cinput = ""){
+    alert("Please Insert at least 1 charater")
+  }else
+  {
     console.log('incorrect');
     cinput.value = '';
   }
@@ -60,6 +60,8 @@ function hint(){
   }
   hintused=true;
 }
+
+
 function build(){
   starmername = currntstream.data[0].display_name.toLowerCase().replace(/[^\w\s]|_/gi, ''); //removes specal charaters
   console.log(starmername);
@@ -70,3 +72,9 @@ function build(){
   descript.innerText = "steamer description = " + dist
   bg.appendChild(descript);
 }
+
+document.addEventListener("keydown" , e =>{
+  if(e.key === "Enter"){
+      guess();
+  }
+})

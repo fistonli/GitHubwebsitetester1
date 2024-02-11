@@ -45,8 +45,9 @@ function guess(){
   if(cinput.value.toLowerCase().replace(/[^\w\s]|_/gi, '') == starmername.toLowerCase()){
     alert("correct!!!")
     location.reload();
-  }else if(cinput.value == ""){
+  }else if(cinput.value.replace(/\s/g, "") == ""){
     alert("Please Insert at least 1 charater")
+    cinput.value = "";
   }else
   {
     alert("Inncorrect or misspelled")

@@ -1,4 +1,4 @@
-const clientId = 'z7wgnsxfmdhmpjs7188ycn63ym3wwe';
+const clientId = 'fx2uvdsxkv4dbzuaoc5u0w9e43iv5e';
 const apiUrl = 'https://api.twitch.tv/helix/';
 const steams = document.getElementById("steamers");
 const bg = document.getElementById("contanter");
@@ -25,7 +25,7 @@ async function getChannelInfo(channelName) {
     const response = await fetch(`${apiUrl}users?login=${channelName}`, {
       headers: {
         'Client-ID': clientId,
-        'Authorization': 'Bearer londuhvcq1awqq67kczfofngse2szt', // Include an OAuth token if needed
+        'Authorization': 'Bearer wldeuyp3pm9qoq5p6v179e6y2c3dcx', // Include an OAuth token if needed
       },
     });
 

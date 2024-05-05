@@ -25,7 +25,7 @@ async function getChannelInfo(channelName) {
     const response = await fetch(`${apiUrl}users?login=${channelName}`, {
       headers: {
         'Client-ID': clientId,
-        'Authorization': 'Bearer dfz3ckirhqgu7hc85plotlqft3toze', // Include an OAuth token if needed
+        'Authorization': 'Bearer r2uibsvqpoyj98gmh5y3i7eg7ga3fk', // Include an OAuth token if needed
       },
     });
 
